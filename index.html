@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/x-men/css/reset.css" />
+    <link rel="stylesheet" href="./src/x-men/css/style.css" />
+    <link rel="stylesheet" href="./src/x-men/css/responsive.css" />
+    <title>X-Men</title>
+  </head>
+
+  <body id="body">
+    <header class="cabecalho">
+      <img
+        class="logo"
+        src="./src/x-men/src/imagens/logo.svg"
+        alt="Logo X-men"
+        style="width: 255px"
+      />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="ciclope"
+            data-name="Ciclope"
+            data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, porém não consegue controlá-las quando abre seus olhos, por isso usa óculos que contém todo seu poder."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-ciclope.jpg"
+              alt="personagem-ciclope"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="jean-grey"
+            data-name="Jean Grey"
+            data-description="Jean Grey é uma mutante de nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. Incluindo telepatia e telecinese."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-jean-grey.jpg"
+              alt="personagem-jean-grey"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="lince-negra"
+            data-name="Lince Negra"
+            data-description="Ela tem a capacidade de atravessar matérias sólidas, campos de energia, poderes destrutivos e continuar intacta, ela ainda possui o poder de andar pelos ares."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-lince-negra.jpg"
+              alt="personagem-lince-negra"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="magneto"
+            data-name="Magneto"
+            data-description="Ele possui o poder do magnetocinese, ou seja, a capacidade de controlar objetos de metal e criar campos magnéticos."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-magneto.jpg"
+              alt="personagem-magneto"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="noturno"
+            data-name="Noturno"
+            data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas, pele azul escuro, e com a incrível de habilidade de se teletransportar para qualquer lugar."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-noturno.jpg"
+              alt="personagem-notuno"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="tempestade"
+            data-name="Tempestade"
+            data-description="Ela tem o poder de controlar as forças temporais da natureza, podendo produzir e manusear raios, chuvas, granizos, ventos, neblina entre outros fenômenos climáticos."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-tempestade.jpg"
+              alt="personagem-tempestade"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="vampira"
+            data-name="Vampira"
+            data-description="Ela tem o poder de absorver a vitalidade e memórias das pessoas que toca, ou no caso dos mutantes até mesmo os poderes, porém temporariamente."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-vampira.jpg"
+              alt="personagem-vampira"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="wolverine"
+            data-name="Wolverine"
+            data-description="Logan, após uma sessão de experimentos científicos acabou adquirindo capacidades sobre humanas, dentre elas, seus sentidos aguçados, regeneração e um par de 3 garras de adamantinum em cada mão."
+          >
+            <img
+              src="./src/x-men/src/imagens/card-wolverine.jpg"
+              alt="personagem-wolverine"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-ciclope.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">CICLOPE</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, porém não consegue controlá-las
+            quando abre seus olhos, por isso usa óculos que contém todo seu
+            poder.
+          </p>
+        </div>
+      
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-jean-grey.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">JEAN GREY</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Jean Grey é uma mutante de nível ômega e o principal avatar da Força
+            Fênix, no qual manifesta poderes cósmicos. Incluindo telepatia e
+            telecinese.
+          </p>
+        </div>
+
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-lince-negra.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">LINCE NEGRA</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ela tem a capacidade de atravessar matérias sólidas, líquidas e
+            gasosas, campos de energia, poderes destrutivos e continuar intacta,
+            ela ainda possui o poder de andar pelos ares.
+          </p>
+        </div>
+
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-magneto.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">MAGNETO</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele possui o poder do magnetocinese, ou seja, a capacidade de
+            controlar objetos de metal e criar campos magnéticos.
+          </p>
+        </div>
+
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-noturno.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">NOTURNO</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele é um mutante que nasceu com cauda, orelhas pontudas, pele azul
+            escuro, e com a incrível de habilidade de se teletransportar para
+            qualquer lugar.
+          </p>
+        </div>
+
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-tempestade.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">TEMPESTADE</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ela tem o poder de controlar as forças temporais da natureza,
+            podendo produzir e manusear raios, chuvas, granizos, ventos, neblina
+            entre outros fenômenos climáticos.
+          </p>
+        </div>
+
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-vampira.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">VAMPIRA</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ela tem o poder de absorver a vitalidade e memórias das pessoas que
+            toca, ou no caso dos mutantes até mesmo os poderes, porém
+            temporariamente.
+          </p>
+        </div>
+
+        <div class="informacoes-personagem">
+          <img
+          class="personagem-amostra"
+          src="./src/x-men/src/imagens/card-wolverine.png"
+          alt="personagem-selecionado"
+        />
+          <h2 class="nome-personagem" id="nome-personagem">WOLVERINE</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Logan, após uma sessão de experimentos científicos acabou adquirindo
+            capacidades sobre humanas, dentre elas, seus sentidos aguçados,
+            regeneração e um par de 3 garras de adamantinum em cada mão.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p>© Renato Julio Oliveira da Cruz</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
